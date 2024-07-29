@@ -328,9 +328,7 @@
 <%--        &option=${param.option}&keyword=${param.keyword} --%>
         <div class="pagination">
           <c:if test="${ph.showPrevBtn}">
-            <c:when test="">
 
-            </c:when>
             <a href="<c:url value='/category?page=${ph.startPage - 1}&pageSize=${ph.pageSize}&pro_category=${param.pro_category}' />" class="startPage"><</a>
           </c:if>
 
